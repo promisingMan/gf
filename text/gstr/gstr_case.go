@@ -32,7 +32,7 @@ var (
 
 // CaseCamel converts a string to CamelCase.
 func CaseCamel(s string) string {
-	return toCamelInitCase(s, true)
+	return CaseCamelFirstUpper(s)
 }
 
 // CaseCamelLower converts a string to lowerCamelCase.
